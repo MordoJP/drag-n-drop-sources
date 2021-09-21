@@ -37,7 +37,7 @@ body {
   border-radius: 20px;
   background: #f7f6f7;
   padding: 0.8rem 1rem;
-  color: #828282;
+  color: #fff;
   text-align: center;
   cursor: grab;
 }
@@ -61,4 +61,35 @@ body {
 
 .done {
   background: linear-gradient(90deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+.hold {
+  border: 2px solid #eee;
+  font-weight: bolder;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
+
+.hovered {
+  border: 2px solid #8ed7ed;
+  border-radius: 20px;
+  opacity: .5;
+}
+
+.starting {
+  background: #caaed9;
+}
+
+.in-process {
+  background: #86c2e5;
+}
+
+.finished {
+  background: #a3e7bf;
 }
